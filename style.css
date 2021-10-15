@@ -1,0 +1,180 @@
+/* Google Fonts Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Scheherazade+New:wght@400;700&display=swap");
+
+/* Global Settings */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.flex-container {
+  margin: 0 15%;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Scheherazade New", serif;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Section Styles */
+
+header {
+  width: 100%;
+  background-color: #1f2937;
+}
+
+#header-wrapper {
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Scheherazade New", serif;
+}
+
+.logo span {
+  color: lightgreen;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.navlist a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.navlist a:hover {
+  color: lightgreen;
+  margin-bottom: 2px solid lightgreen;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 0px 100px 0px;
+}
+
+.hero-content {
+  width: 40%;
+  color: #fff;
+}
+
+.hero-image {
+  width: 500px;
+  height: 250px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Wallpapers Collections Styles */
+
+#wallpaper {
+  padding: 50px 0;
+}
+
+#wallpaper h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  margin: 40px 0px;
+}
+
+.collection-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  max-width: 20%;
+}
+
+.card-image {
+  width: 250px;
+  height: 200px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card-content {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
