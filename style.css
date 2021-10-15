@@ -205,3 +205,42 @@ cite {
   font-weight: bold;
   float: right;
 }
+
+/* CTA Section Styles */
+
+.cta-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 40px 100px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#button {
+  border: 2px solid #fff;
+}
+
+.cta-title {
+  font-size: 32px;
+}
+
+.cta-content {
+  font-size: 20px;
+}
+
+/* Footer Section Styles */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.copyright {
+  color: #fff;
+}
