@@ -178,3 +178,25 @@ header {
   text-align: center;
   margin-top: 10px;
 }
+
+/* Quote Section Styles */
+
+.quote {
+  background: rgba(229, 231, 235, 0.5);
+  padding: 50px 0px;
+}
+
+.quote-details {
+  width: 700px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+}
+
+cite {
+  font-size: 24px;
+  font-weight: bold;
+  float: right;
+}
